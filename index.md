@@ -11,10 +11,10 @@ title: ホーム
 
 ## 📚 分野別
 
-[解析学]({{ site.baseurl }}/categories/analysis/)
-[線形代数]({{ site.baseurl }}/categories/linear-algebra/)
-[離散数学]({{ site.baseurl }}/categories/discrete-math/)
-[アルゴリズム理論]({{ site.baseurl }}/categories/algorithm/)
+-[解析学]({{ site.baseurl }}/categories/analysis/)
+-[線形代数]({{ site.baseurl }}/categories/linear-algebra/)
+-[離散数学]({{ site.baseurl }}/categories/discrete-math/)
+-[アルゴリズム理論]({{ site.baseurl }}/categories/algorithm/)
 ---
 
 ## 📝 最新記事
