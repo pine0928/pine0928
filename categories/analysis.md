@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 解析学
 permalink: /categories/analysis/
 ---
