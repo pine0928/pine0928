@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "はじめての記事"
+categories: analysis
 ---
 これはインライン数式です：
 
