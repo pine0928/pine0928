@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 線形代数
 permalink: /categories/linear-algebra/
 ---
