@@ -3,6 +3,53 @@
 
 @import "minima";
 
+/* サブタイトル */
+.subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* カード全体グリッド */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* カードデザイン */
+.card {
+  display: block;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+/* ホバー効果 */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* 最新記事 */
+.latest-posts {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.post-date {
+  color: gray;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
 /* 全体を中央に */
 .wrapper {
   max-width: 800px;
