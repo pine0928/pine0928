@@ -5,23 +5,35 @@ title: ホーム
 
 # 数学独学ノート
 
-<p style="font-size: 1.1em;">
-工学部生による数学の学習記録と理論ノートです。
+<p class="subtitle">
+工学部生による数学の学習記録と理論ノート
 </p>
 
 <br>
 
 ## 📚 分野別
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; max-width: 500px; margin: 0 auto;">
+<div class="card-grid">
 
-<a href="{{ site.baseurl }}/categories/analysis/">解析学</a>
+  <a class="card" href="{{ site.baseurl }}/categories/analysis/">
+    <h3>解析学</h3>
+    <p>微分・積分・級数・極限</p>
+  </a>
 
-<a href="{{ site.baseurl }}/categories/linear-algebra/">線形代数</a>
+  <a class="card" href="{{ site.baseurl }}/categories/linear-algebra/">
+    <h3>線形代数</h3>
+    <p>行列・固有値・ベクトル空間</p>
+  </a>
 
-<a href="{{ site.baseurl }}/categories/discrete-math/">離散数学</a>
+  <a class="card" href="{{ site.baseurl }}/categories/discrete-math/">
+    <h3>離散数学</h3>
+    <p>グラフ理論・組合せ</p>
+  </a>
 
-<a href="{{ site.baseurl }}/categories/algorithm/">アルゴリズム理論</a>
+  <a class="card" href="{{ site.baseurl }}/categories/algorithm/">
+    <h3>アルゴリズム理論</h3>
+    <p>DP・最大フロー・計算量</p>
+  </a>
 
 </div>
 
@@ -29,12 +41,12 @@ title: ホーム
 
 ## 📝 最新記事
 
-<ul style="max-width: 600px; margin: 0 auto; text-align: left;">
+<ul class="latest-posts">
 {% for post in site.posts limit:5 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <span style="color: gray; font-size: 0.9em;">
-      ({{ post.date | date: "%Y.%m.%d" }})
+    <span class="post-date">
+      {{ post.date | date: "%Y.%m.%d" }}
     </span>
   </li>
 {% endfor %}
